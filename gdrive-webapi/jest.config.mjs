@@ -27,4 +27,3 @@ export default {
   ]
 };
 
-// CoverageReporters usado para criar uma cobertura de teste;
