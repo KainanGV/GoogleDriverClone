@@ -1,7 +1,7 @@
 export default {
   clearMocks: true,
   restoreMocks: true,
-  collectCoverage: true,
+  // collectCoverage: true,
   coverageDirectory: "coverage",
   coverageProvider: "v8",
   // Gerar o html para ver se está tudo testado 
