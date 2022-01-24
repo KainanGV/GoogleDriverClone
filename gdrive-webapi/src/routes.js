@@ -14,6 +14,8 @@ export default class Routes {
         response.end('hello world') 
     }
 
+    // Por padrão o navegador envia uma request options para saber se sua API está disponível 
+    //para ser consumida
     async options(request, response) {
         response.writeHead(204)
         response.end()
